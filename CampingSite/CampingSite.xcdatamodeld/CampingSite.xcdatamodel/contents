@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity_Camp_Site" representedClassName="Entity_Camp_Site" syncable="YES" codeGenerationType="class">
+        <attribute name="addr1" optional="YES" attributeType="String"/>
+        <attribute name="addr2" optional="YES" attributeType="String"/>
+        <attribute name="allar" optional="YES" attributeType="String"/>
+        <attribute name="animalCmgCl" optional="YES" attributeType="String"/>
+        <attribute name="autoSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="bizrno" optional="YES" attributeType="String"/>
+        <attribute name="brazierCl" optional="YES" attributeType="String"/>
+        <attribute name="caravAcmpnyAt" optional="YES" attributeType="String"/>
+        <attribute name="caravInnerFclty" optional="YES" attributeType="String"/>
+        <attribute name="caravSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="clturEvent" optional="YES" attributeType="String"/>
+        <attribute name="clturEventAt" optional="YES" attributeType="String"/>
+        <attribute name="contentId" optional="YES" attributeType="String"/>
+        <attribute name="createdtime" optional="YES" attributeType="String"/>
+        <attribute name="direction" optional="YES" attributeType="String"/>
+        <attribute name="doNm" optional="YES" attributeType="String"/>
+        <attribute name="eqpmnLendCl" optional="YES" attributeType="String"/>
+        <attribute name="exprnProgrm" optional="YES" attributeType="String"/>
+        <attribute name="exprnProgrmAt" optional="YES" attributeType="String"/>
+        <attribute name="extshrCo" optional="YES" attributeType="String"/>
+        <attribute name="facltDivNm" optional="YES" attributeType="String"/>
+        <attribute name="facltNm" optional="YES" attributeType="String"/>
+        <attribute name="featureNm" optional="YES" attributeType="String"/>
+        <attribute name="fireSensorCo" optional="YES" attributeType="String"/>
+        <attribute name="firstImageUrl" optional="YES" attributeType="String"/>
+        <attribute name="frprvtSandCo" optional="YES" attributeType="String"/>
+        <attribute name="frprvtWrppCo" optional="YES" attributeType="String"/>
+        <attribute name="glampInnerFclty" optional="YES" attributeType="String"/>
+        <attribute name="glampSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="gnrlSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="homepage" optional="YES" attributeType="String"/>
+        <attribute name="hvofBgnde" optional="YES" attributeType="String"/>
+        <attribute name="hvofEnddle" optional="YES" attributeType="String"/>
+        <attribute name="induty" optional="YES" attributeType="String"/>
+        <attribute name="indvdlCaravSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="insrncAt" optional="YES" attributeType="String"/>
+        <attribute name="intro" optional="YES" attributeType="String"/>
+        <attribute name="lctCl" optional="YES" attributeType="String"/>
+        <attribute name="lineIntro" optional="YES" attributeType="String"/>
+        <attribute name="manageNmpr" optional="YES" attributeType="String"/>
+        <attribute name="manageSttus" optional="YES" attributeType="String"/>
+        <attribute name="mangeDivNm" optional="YES" attributeType="String"/>
+        <attribute name="mapX" optional="YES" attributeType="String"/>
+        <attribute name="mapY" optional="YES" attributeType="String"/>
+        <attribute name="mgcDiv" optional="YES" attributeType="String"/>
+        <attribute name="modifiedtime" optional="YES" attributeType="String"/>
+        <attribute name="operDeCl" optional="YES" attributeType="String"/>
+        <attribute name="operPdCl" optional="YES" attributeType="String"/>
+        <attribute name="posblFcltyCl" optional="YES" attributeType="String"/>
+        <attribute name="posblFcltyEtc" optional="YES" attributeType="String"/>
+        <attribute name="prmisnDe" optional="YES" attributeType="String"/>
+        <attribute name="resveCl" optional="YES" attributeType="String"/>
+        <attribute name="resveUrl" optional="YES" attributeType="String"/>
+        <attribute name="sbrsCl" optional="YES" attributeType="String"/>
+        <attribute name="sbrsEtc" optional="YES" attributeType="String"/>
+        <attribute name="sigunguNm" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl1" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl2" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl3" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl4" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl5" optional="YES" attributeType="String"/>
+        <attribute name="sitedStnc" optional="YES" attributeType="String"/>
+        <attribute name="siteMg1Co" optional="YES" attributeType="String"/>
+        <attribute name="siteMg1Vrticl" optional="YES" attributeType="String"/>
+        <attribute name="siteMg1Width" optional="YES" attributeType="String"/>
+        <attribute name="siteMg2Co" optional="YES" attributeType="String"/>
+        <attribute name="siteMg2Vrticl" optional="YES" attributeType="String"/>
+        <attribute name="siteMg2Width" optional="YES" attributeType="String"/>
+        <attribute name="siteMg3Co" optional="YES" attributeType="String"/>
+        <attribute name="siteMg3Vrticl" optional="YES" attributeType="String"/>
+        <attribute name="siteMg3Width" optional="YES" attributeType="String"/>
+        <attribute name="swrmCo" optional="YES" attributeType="String"/>
+        <attribute name="tel" optional="YES" attributeType="String"/>
+        <attribute name="themaEnvrnCl" optional="YES" attributeType="String"/>
+        <attribute name="toiletCo" optional="YES" attributeType="String"/>
+        <attribute name="tooltip" optional="YES" attributeType="String"/>
+        <attribute name="tourEraCl" optional="YES" attributeType="String"/>
+        <attribute name="trlerAcmpnyAt" optional="YES" attributeType="String"/>
+        <attribute name="trsagntNo" optional="YES" attributeType="String"/>
+        <attribute name="wtrplCo" optional="YES" attributeType="String"/>
+        <attribute name="zipcode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Entity_Camp_Site_Near" representedClassName="Entity_Camp_Site_Near" syncable="YES" codeGenerationType="class">
+        <attribute name="addr1" optional="YES" attributeType="String"/>
+        <attribute name="addr2" optional="YES" attributeType="String"/>
+        <attribute name="allar" optional="YES" attributeType="String"/>
+        <attribute name="animalCmgCl" optional="YES" attributeType="String"/>
+        <attribute name="autoSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="bizrno" optional="YES" attributeType="String"/>
+        <attribute name="brazierCl" optional="YES" attributeType="String"/>
+        <attribute name="caravAcmpnyAt" optional="YES" attributeType="String"/>
+        <attribute name="caravInnerFclty" optional="YES" attributeType="String"/>
+        <attribute name="caravSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="clturEvent" optional="YES" attributeType="String"/>
+        <attribute name="clturEventAt" optional="YES" attributeType="String"/>
+        <attribute name="contentId" optional="YES" attributeType="String"/>
+        <attribute name="createdtime" optional="YES" attributeType="String"/>
+        <attribute name="direction" optional="YES" attributeType="String"/>
+        <attribute name="doNm" optional="YES" attributeType="String"/>
+        <attribute name="eqpmnLendCl" optional="YES" attributeType="String"/>
+        <attribute name="exprnProgrm" optional="YES" attributeType="String"/>
+        <attribute name="exprnProgrmAt" optional="YES" attributeType="String"/>
+        <attribute name="extshrCo" optional="YES" attributeType="String"/>
+        <attribute name="facltDivNm" optional="YES" attributeType="String"/>
+        <attribute name="facltNm" optional="YES" attributeType="String"/>
+        <attribute name="featureNm" optional="YES" attributeType="String"/>
+        <attribute name="fireSensorCo" optional="YES" attributeType="String"/>
+        <attribute name="firstImageUrl" optional="YES" attributeType="String"/>
+        <attribute name="frprvtSandCo" optional="YES" attributeType="String"/>
+        <attribute name="frprvtWrppCo" optional="YES" attributeType="String"/>
+        <attribute name="glampInnerFclty" optional="YES" attributeType="String"/>
+        <attribute name="glampSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="gnrlSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="homepage" optional="YES" attributeType="String"/>
+        <attribute name="hvofBgnde" optional="YES" attributeType="String"/>
+        <attribute name="hvofEnddle" optional="YES" attributeType="String"/>
+        <attribute name="induty" optional="YES" attributeType="String"/>
+        <attribute name="indvdlCaravSiteCo" optional="YES" attributeType="String"/>
+        <attribute name="insrncAt" optional="YES" attributeType="String"/>
+        <attribute name="intro" optional="YES" attributeType="String"/>
+        <attribute name="lctCl" optional="YES" attributeType="String"/>
+        <attribute name="lineIntro" optional="YES" attributeType="String"/>
+        <attribute name="manageNmpr" optional="YES" attributeType="String"/>
+        <attribute name="manageSttus" optional="YES" attributeType="String"/>
+        <attribute name="mangeDivNm" optional="YES" attributeType="String"/>
+        <attribute name="mapX" optional="YES" attributeType="String"/>
+        <attribute name="mapY" optional="YES" attributeType="String"/>
+        <attribute name="mgcDiv" optional="YES" attributeType="String"/>
+        <attribute name="modifiedtime" optional="YES" attributeType="String"/>
+        <attribute name="operDeCl" optional="YES" attributeType="String"/>
+        <attribute name="operPdCl" optional="YES" attributeType="String"/>
+        <attribute name="posblFcltyCl" optional="YES" attributeType="String"/>
+        <attribute name="posblFcltyEtc" optional="YES" attributeType="String"/>
+        <attribute name="prmisnDe" optional="YES" attributeType="String"/>
+        <attribute name="resveCl" optional="YES" attributeType="String"/>
+        <attribute name="resveUrl" optional="YES" attributeType="String"/>
+        <attribute name="sbrsCl" optional="YES" attributeType="String"/>
+        <attribute name="sbrsEtc" optional="YES" attributeType="String"/>
+        <attribute name="sigunguNm" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl1" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl2" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl3" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl4" optional="YES" attributeType="String"/>
+        <attribute name="siteBottomCl5" optional="YES" attributeType="String"/>
+        <attribute name="sitedStnc" optional="YES" attributeType="String"/>
+        <attribute name="siteMg1Co" optional="YES" attributeType="String"/>
+        <attribute name="siteMg1Vrticl" optional="YES" attributeType="String"/>
+        <attribute name="siteMg1Width" optional="YES" attributeType="String"/>
+        <attribute name="siteMg2Co" optional="YES" attributeType="String"/>
+        <attribute name="siteMg2Vrticl" optional="YES" attributeType="String"/>
+        <attribute name="siteMg2Width" optional="YES" attributeType="String"/>
+        <attribute name="siteMg3Co" optional="YES" attributeType="String"/>
+        <attribute name="siteMg3Vrticl" optional="YES" attributeType="String"/>
+        <attribute name="siteMg3Width" optional="YES" attributeType="String"/>
+        <attribute name="swrmCo" optional="YES" attributeType="String"/>
+        <attribute name="tel" optional="YES" attributeType="String"/>
+        <attribute name="themaEnvrnCl" optional="YES" attributeType="String"/>
+        <attribute name="toiletCo" optional="YES" attributeType="String"/>
+        <attribute name="tooltip" optional="YES" attributeType="String"/>
+        <attribute name="tourEraCl" optional="YES" attributeType="String"/>
+        <attribute name="trlerAcmpnyAt" optional="YES" attributeType="String"/>
+        <attribute name="trsagntNo" optional="YES" attributeType="String"/>
+        <attribute name="wtrplCo" optional="YES" attributeType="String"/>
+        <attribute name="zipcode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Entity_CollectTime" representedClassName="Entity_CollectTime" syncable="YES" codeGenerationType="class">
+        <attribute name="administrative" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="administrativesigungu" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="allsite" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="install" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="nearsite" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="siteimage" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="weather" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Entity_Current_Weather" representedClassName="Entity_Current_Weather" syncable="YES" codeGenerationType="class">
+        <attribute name="all" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="base" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="deg" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="feels_like" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="main" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="pressure" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sunrise" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sunset" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="temp" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temp_max" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temp_min" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="visibility" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="writetime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Entity_SiDo" representedClassName="Entity_SiDo" syncable="YES" codeGenerationType="class">
+        <attribute name="ctp_eng_nm" optional="YES" attributeType="String"/>
+        <attribute name="ctp_kor_nm" optional="YES" attributeType="String"/>
+        <attribute name="ctprvn_cd" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Entity_SiGunGu" representedClassName="Entity_SiGunGu" syncable="YES" codeGenerationType="class">
+        <attribute name="full_nm" optional="YES" attributeType="String"/>
+        <attribute name="sig_cd" optional="YES" attributeType="String"/>
+        <attribute name="sig_eng_nm" optional="YES" attributeType="String"/>
+        <attribute name="sig_kor_nm" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Entity_Site_Image" representedClassName="Entity_Site_Image" syncable="YES" codeGenerationType="class">
+        <attribute name="contentId" optional="YES" attributeType="String"/>
+        <attribute name="createdtime" optional="YES" attributeType="String"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="modifiedtime" optional="YES" attributeType="String"/>
+        <attribute name="serialnum" optional="YES" attributeType="String"/>
+    </entity>
+</model>
